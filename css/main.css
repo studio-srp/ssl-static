@@ -109,17 +109,15 @@
   margin-bottom: 2rem;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Jost Medium";
   src: url("./assets/fonts/Jost-Medium.ttf");
-}
+} */
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
+
+html, body {
+  overflow-x: hidden;
 }
 
 body::before {
@@ -130,9 +128,10 @@ body::before {
 
 body {
   background-color: #fff;
-  font-family: "Jost Medium", sans-serif;
+  /* font-family: "Jost Medium", sans-serif; */
+  font-family: 'Jost', sans-serif;
   font-size: 10px;
-  font-weight: 400 !important;
+  font-weight: 300;
 }
 
 .navigation {
