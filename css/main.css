@@ -1,7 +1,7 @@
 .banner {
   height: 500px;
   width: 100vw;
-  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("./../assets/images/banner_image.jpg");
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("./../assets/images/banner_image.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 50%;
@@ -113,6 +113,7 @@
   font-family: "Jost Medium";
   src: url("./assets/fonts/Jost-Medium.ttf");
 }
+
 *,
 *::before,
 *::after {
@@ -131,6 +132,7 @@ body {
   background-color: #fff;
   font-family: "Jost Medium", sans-serif;
   font-size: 10px;
+  font-weight: 400 !important;
 }
 
 .navigation {
@@ -384,7 +386,21 @@ body {
   width: 30px;
   height: 100%;
   background-color: #fff;
-  animation: shiny-btn1 3s ease-in-out infinite;
+  animation: shiny-btn 3s ease-in-out infinite;
+}
+
+@keyframes shiny-btn {
+  0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+  80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+  81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+  100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
+@-webkit-keyframes shiny-btn {
+  0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+  80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+  81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+  100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
 
 footer {
