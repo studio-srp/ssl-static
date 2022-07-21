@@ -1,0 +1,20 @@
+.services-box {
+    background-color: $color-text-primary;
+    // padding: 4rem 3rem;
+    padding: 2rem;
+    width: 100%;
+    margin-top: 3rem;
+    outline: none;
+
+    transition: 0.3s ease all;
+    h3 {
+        color: $color-white;
+        font-size: 2rem;
+    }
+
+    &:hover {
+        outline: $color-text-primary 10px solid;
+        outline-offset: 20px;
+        transform: scale(0.9);
+    }
+}

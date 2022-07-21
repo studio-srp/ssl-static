@@ -1,0 +1,38 @@
+.foundation-card {
+    .foundation-img {
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.5rem;
+        color: $color-text-primary;
+        padding: 1rem 0;
+    }
+    .content-area {
+        background-color: white;
+        width: 80%;
+        margin: 0 auto;
+        padding: 1rem 1.5rem;
+
+        transform: translateY(-12rem);
+        box-shadow: 4px 4px 15px 5px rgba(0, 0, 0, 0.25);
+        .horizontal-line {
+            width: 80px;
+            background-color: $color-text-primary;
+            height: 5px;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .link {
+        color: $color-secondary;
+        font-size: 1rem;
+        display: inline-block;
+        text-decoration: none;
+        margin-bottom: 2rem;
+    }
+}

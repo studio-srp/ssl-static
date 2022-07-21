@@ -1,0 +1,405 @@
+.banner {
+  height: 500px;
+  width: 100vw;
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("./../assets/images/banner_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+
+.banner-content > h1 {
+  font-size: 6rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.banner-content > h3 {
+  margin: 0;
+  font-size: 2rem;
+  transform: translateY(1rem);
+}
+
+.btn {
+  width: 150px;
+  padding: 1rem 0.5rem;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #637f4c;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #bc6324;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #a75820;
+  color: #fff;
+}
+
+.btn-tertiary {
+  background-color: #161616;
+  color: #fff;
+}
+
+.btn-text-primary {
+  background-color: #747a30;
+  color: #fff;
+}
+
+.link {
+  text-align: left;
+}
+
+.services-box {
+  background-color: #747a30;
+  padding: 2rem;
+  width: 100%;
+  margin-top: 3rem;
+  outline: none;
+  transition: 0.3s ease all;
+}
+.services-box h3 {
+  color: #fff;
+  font-size: 2rem;
+}
+.services-box:hover {
+  outline: #747a30 10px solid;
+  outline-offset: 20px;
+  transform: scale(0.9);
+}
+
+.foundation-card .foundation-img {
+  width: 100%;
+}
+.foundation-card h1 {
+  font-size: 1.5rem;
+  color: #747a30;
+  padding: 1rem 0;
+}
+.foundation-card .content-area {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  transform: translateY(-12rem);
+  box-shadow: 4px 4px 15px 5px rgba(0, 0, 0, 0.25);
+}
+.foundation-card .content-area .horizontal-line {
+  width: 80px;
+  background-color: #747a30;
+  height: 5px;
+  margin-bottom: 1.5rem;
+}
+.foundation-card p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.foundation-card .link {
+  color: #bc6324;
+  font-size: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+
+@font-face {
+  font-family: "Jost Medium";
+  src: url("./assets/fonts/Jost-Medium.ttf");
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body::before {
+  content: "";
+  display: block;
+  height: 100px;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Jost Medium", sans-serif;
+  font-size: 10px;
+}
+
+.navigation {
+  height: 150px;
+}
+
+.nav-link {
+  background-color: #fff !important;
+  font-size: initial !important;
+  color: initial !important;
+}
+
+.nav-link.active {
+  border-bottom: 5px solid #dc3545;
+  border-radius: initial;
+}
+
+.our-services,
+.our-projects {
+  margin-top: 6rem;
+}
+.our-services .container h1,
+.our-projects .container h1 {
+  font-size: 4rem;
+  color: #747a30;
+  margin-bottom: 2rem;
+}
+.our-services .container .horizontal-line,
+.our-projects .container .horizontal-line {
+  width: 80px;
+  background-color: #747a30;
+  height: 5px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.our-services .container p,
+.our-projects .container p {
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+}
+
+.who-we-are .background {
+  padding: 8rem 0;
+  width: 100vw;
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./../assets/images/banner_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+.who-we-are .container h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.who-we-are .container h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+.who-we-are .container p {
+  font-size: 1.3rem;
+}
+.who-we-are .horizontal-line {
+  width: 80px;
+  background-color: #747a30;
+  height: 10px;
+  margin-bottom: 1rem;
+}
+
+.project-main {
+  width: 100%;
+}
+.project-main .card-text {
+  text-align: left;
+}
+.project-main .card-link {
+  font-size: 1rem;
+  color: #bc6324;
+  float: left;
+  text-decoration: none;
+}
+
+.img-sub-second {
+  height: 350px;
+  width: 100%;
+  background: url("../assets/images/Rectangle 19.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img-sub-second-last {
+  background: url("../assets/images/Rectangle 20.png");
+}
+
+.project-sub {
+  width: 100%;
+  height: 100%;
+}
+.project-sub .card {
+  overflow: hidden;
+  height: 350px;
+}
+.project-sub .card-text {
+  text-align: left;
+}
+.project-sub .card-link {
+  font-size: 1rem;
+  color: #bc6324;
+  float: left;
+  text-decoration: none;
+}
+.project-sub .sub-paragraph {
+  width: 50%;
+}
+
+.our-training .background-primary {
+  background-color: #747a30;
+}
+.our-training .our-training-image {
+  width: 105%;
+}
+.our-training .background-wind {
+  background: url("../assets/images/wind-power.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.our-training .details-box {
+  display: inline-block;
+  height: auto;
+  margin: 3rem 4rem;
+  padding-right: 7rem;
+}
+.our-training .details-box .horizontal-line {
+  width: 80px;
+  background-color: #fff;
+  height: 5px;
+}
+.our-training .details-box h3 {
+  font-size: 2rem;
+}
+.our-training .details-box h1 {
+  font-size: 3vw;
+}
+.our-training .details-box p {
+  font-size: 1.3rem;
+}
+
+.foundation .main-heading {
+  font-size: 3rem;
+  color: #747a30;
+}
+.foundation .horizontal-line-main {
+  width: 80px;
+  background-color: #747a30;
+  height: 5px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.what-our-client-say {
+  background-color: #f4f5f5;
+  color: #747a30;
+}
+.what-our-client-say .background-image-client {
+  background: url("../assets/images/client.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.what-our-client-say .content-box {
+  padding-top: 8rem;
+  width: 70%;
+}
+.what-our-client-say .content-box .sub-heading {
+  font-size: 2rem;
+  color: #747a30;
+}
+.what-our-client-say .horizontal-line-main {
+  width: 80px;
+  background-color: #747a30;
+  height: 5px;
+  margin-bottom: 1rem;
+}
+.what-our-client-say h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.what-our-client-say p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.what-our-client-say .name {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.what-our-client-say h3 {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.what-our-client-say .btn {
+  margin-bottom: 8rem;
+}
+
+.news-letter {
+  background-color: #747a30;
+  padding: 4rem;
+  color: white;
+}
+.news-letter .horizontal-line-main {
+  width: 80px;
+  background-color: #fff;
+  height: 5px;
+  margin-bottom: 1rem;
+}
+.news-letter h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.news-letter h1 {
+  font-size: 3rem;
+}
+.news-letter .input {
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  width: 300px;
+  outline: none;
+  margin: 0;
+  color: gray;
+  border: none;
+  border-radius: 40px 0 0 40px;
+}
+.news-letter .submit-button {
+  color: white;
+  background-color: #161616;
+  font-size: 1rem;
+  padding: 0.7rem 2rem;
+  outline: none;
+  border: none;
+  margin: 0;
+  border-radius: 0 40px 40px 0;
+}
+
+.call-to-action {
+  position: relative;
+  overflow: hidden;
+}
+
+.call-to-action::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+footer {
+  background-color: #161616;
+}
+footer p {
+  font-size: 1.05rem;
+}
+footer .icons > a > i {
+  color: white;
+  font-size: 2rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+footer .useful-links > p > a {
+  text-decoration: none;
+  color: #f4f5f5;
+}/*# sourceMappingURL=main.css.map */

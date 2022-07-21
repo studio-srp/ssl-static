@@ -1,0 +1,37 @@
+.btn {
+    width: 150px;
+    padding: 1rem 0.5rem;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: $color-primary;
+    color: $color-white;
+}
+
+.btn-secondary {
+    background-color: $color-secondary;
+    color: $color-white;
+}
+
+.btn-secondary:hover {
+    background-color: darken($color-secondary, 5%);
+    color: $color-white;
+}
+
+.btn-tertiary {
+    background-color: $color-tertiary;
+    color: $color-white;
+}
+
+.btn-text-primary {
+    background-color: $color-text-primary;
+    color: $color-white;
+}
+
+.link {
+    text-align: left;
+}

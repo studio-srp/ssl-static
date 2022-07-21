@@ -1,0 +1,21 @@
+.banner {
+    height: 500px;
+    width: 100vw;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+        url("./../assets/images/banner_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+
+.banner-content > h1 {
+    font-size: 6rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.banner-content > h3 {
+    margin: 0;
+    font-size: 2rem;
+    transform: translateY(1rem);
+}
