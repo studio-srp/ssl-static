@@ -339,9 +339,9 @@ body {
   color: white;
 }
 .news-letter .horizontal-line-main {
-  width: 80px;
+  width: 50px;
   background-color: #fff;
-  height: 5px;
+  height: 3px;
   margin-bottom: 1rem;
 }
 .news-letter h3 {
