@@ -46,6 +46,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 50%;
+  background-attachment: fixed;
 }
 
 .banner-content > h1 {
@@ -212,6 +213,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 50%;
+  background-attachment: fixed;
 }
 .who-we-are .container h3 {
   font-size: 2rem;
@@ -283,11 +285,15 @@ body {
 .our-training .our-training-image {
   width: 105%;
 }
+
 .our-training .background-wind {
   background: url("../assets/images/wind-power.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 80% 0%;
+  background-attachment: fixed;
 }
+
 .our-training .details-box {
   display: inline-block;
   height: auto;
@@ -325,15 +331,20 @@ body {
   background-color: #f4f5f5;
   color: #747a30;
 }
+
 .what-our-client-say .background-image-client {
   background: url("../assets/images/client.png");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 0;
+  background-attachment: fixed;
 }
+
 .what-our-client-say .content-box {
   padding-top: 8rem;
   width: 70%;
 }
+
 .what-our-client-say .content-box .sub-heading {
   font-size: 2rem;
   color: #747a30;
