@@ -75,13 +75,18 @@ body {
   color: #fff;
 }
 
+.btn-primary:hover {
+  background-color: #161616;
+  color: #fff;
+}
+
 .btn-secondary {
   background-color: #bc6324;
   color: #fff;
 }
 
 .btn-secondary:hover {
-  background-color: #a75820;
+  background-color: #161616;
   color: #fff;
 }
 
@@ -90,8 +95,13 @@ body {
   color: #fff;
 }
 
+.btn-tertiary:hover {
+  background-color: #fff;
+  color: #161616;
+}
+
 .btn-text-primary {
-  background-color: #747a30;
+  background-color: #637F4C;
   color: #fff;
 }
 
@@ -99,39 +109,8 @@ body {
   text-align: left;
 }
 
-.call-to-action {
-  position: relative;
-  overflow: hidden;
-}
-
-.call-to-action::before {
-  position: absolute;
-  content: '';
-  display: inline-block;
-  top: -180px;
-  left: 0;
-  width: 30px;
-  height: 100%;
-  background-color: #fff;
-  animation: shiny-btn 3s ease-in-out infinite;
-}
-
-@keyframes shiny-btn {
-  0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
-  80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
-  81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
-  100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
-}
-
-@-webkit-keyframes shiny-btn {
-  0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
-  80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
-  81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
-  100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
-}
-
 .services-box {
-  background-color: #747a30;
+  background-color: #637F4C;
   padding: 2rem;
   width: 100%;
   margin-top: 3rem;
@@ -143,9 +122,14 @@ body {
   font-size: 2rem;
 }
 .services-box:hover {
-  outline: #747a30 10px solid;
-  outline-offset: 20px;
-  transform: scale(0.9);
+  /* outline: #637F4C 10px solid; */
+  /* outline-offset: 20px; */
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.97);
+}
+
+.card, .foundation-card .content-area {
+  background-color: #f4f5f5 !important;
 }
 
 .foundation-card .foundation-img {
@@ -153,11 +137,10 @@ body {
 }
 .foundation-card h1 {
   font-size: 1.5rem;
-  color: #747a30;
+  color: #637F4C;
   padding: 1rem 0;
 }
 .foundation-card .content-area {
-  background-color: white;
   width: 80%;
   margin: 0 auto;
   padding: 1rem 1.5rem;
@@ -166,7 +149,7 @@ body {
 }
 .foundation-card .content-area .horizontal-line {
   width: 80px;
-  background-color: #747a30;
+  background-color: #637F4C;
   height: 5px;
   margin-bottom: 1.5rem;
 }
@@ -189,13 +172,13 @@ body {
 .our-services .container h1,
 .our-projects .container h1 {
   font-size: 4rem;
-  color: #747a30;
+  color: #637F4C;
   margin-bottom: 2rem;
 }
 .our-services .container .horizontal-line,
 .our-projects .container .horizontal-line {
   width: 80px;
-  background-color: #747a30;
+  background-color: #637F4C;
   height: 5px;
   margin: auto;
   margin-bottom: 2rem;
@@ -228,7 +211,7 @@ body {
 }
 .who-we-are .horizontal-line {
   width: 80px;
-  background-color: #747a30;
+  background-color: #637F4C;
   height: 10px;
   margin-bottom: 1rem;
 }
@@ -280,7 +263,7 @@ body {
 }
 
 .our-training .background-primary {
-  background-color: #747a30;
+  background-color: #637F4C;
 }
 .our-training .our-training-image {
   width: 105%;
@@ -315,13 +298,22 @@ body {
   font-size: 1.3rem;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: #f4f5f5;
+  color: #637F4C;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
 .foundation .main-heading {
   font-size: 3rem;
-  color: #747a30;
+  color: #637F4C;
 }
 .foundation .horizontal-line-main {
   width: 80px;
-  background-color: #747a30;
+  background-color: #637F4C;
   height: 5px;
   margin: auto;
   margin-bottom: 1rem;
@@ -329,7 +321,7 @@ body {
 
 .what-our-client-say {
   background-color: #f4f5f5;
-  color: #747a30;
+  color: #637F4C;
 }
 
 .what-our-client-say .background-image-client {
@@ -347,11 +339,11 @@ body {
 
 .what-our-client-say .content-box .sub-heading {
   font-size: 2rem;
-  color: #747a30;
+  color: #637F4C;
 }
 .what-our-client-say .horizontal-line-main {
   width: 80px;
-  background-color: #747a30;
+  background-color: #637F4C;
   height: 5px;
   margin-bottom: 1rem;
 }
@@ -376,7 +368,7 @@ body {
 }
 
 .news-letter {
-  background-color: #747a30;
+  background-color: #637F4C;
   padding: 4rem;
   color: white;
 }
