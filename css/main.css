@@ -61,6 +61,16 @@ body {
   transform: translateY(1rem);
 }
 
+.sub-banner {
+  height: 300px;
+  width: 100vw;
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("./../assets/images/our-story.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-attachment: fixed;
+}
+
 .btn {
   width: 150px;
   padding: 1rem 0.5rem;
@@ -214,6 +224,17 @@ body {
   background-color: #637F4C;
   height: 10px;
   margin-bottom: 1rem;
+}
+
+.our-story > .background {
+  padding: 8rem 0;
+  width: 100vw;
+  height: 90vh;
+  background: url("./../assets/images/sustainable.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-attachment: fixed;
 }
 
 .project-main {
