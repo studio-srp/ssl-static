@@ -138,7 +138,10 @@ body {
   transform: scale(0.97);
 }
 
-.card, .foundation-card .content-area {
+.foundation-card .content-area {
+  background-color: #f4f5f5 !important;
+}
+.card {
   background-color: #f4f5f5 !important;
 }
 
