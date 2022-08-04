@@ -22,9 +22,12 @@
 }
 .container1:hover{
     cursor: pointer;
-    transform: scale(1.1);
-
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.97);
 }
+
+
+
 
 .team-members{
     margin-top: -50px !important;
@@ -53,8 +56,8 @@
 }
 
 .container1 .card .content-box .imgbx {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     position: relative;
     margin-bottom: 20px;
@@ -85,23 +88,19 @@
     font-weight: bold;
     text-align: center;
 }
-.container1 .card .content-box .sci h6 a{
-    /*text-decoration: none;*/
 
-    color: #6c758f;
-    font-size: 10px;
-    margin: 10px;
-    transition: color 0.4s;
-
-
-}
 
 .container1 .card .content-box .sci a:hover{
     color:#637f4c;
 }
-.mail{
-    /*background-color: #a75820;*/
-    font-size: 10px;
+.mail-clr{
+    color: rgba(108, 117, 143, 0.63);
+    text-decoration: none;
+    /*font-size: 10px;*/
+}
+.mail-clr:hover{
+    color:#637f4c;
+    text-decoration: underline;
 }
 .container1 .card .content-box p{
     color: #6c758f;
