@@ -1,0 +1,98 @@
+.our-projects-Intro {
+
+}
+
+.our-projects-Intro {
+    margin-top: 6rem;
+}
+
+.our-projects-Intro h1 {
+    font-size: 4rem;
+    color: #637F4C;
+    margin-bottom: 2rem;
+}
+
+.our-projects-Intro .horizontal-line {
+    width: 80px;
+    background-color: #637F4C;
+    height: 5px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.our-teamP {
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+}
+
+
+.project-list {
+    background-color: #f4f5f5;
+    color: #637F4C;
+
+}
+
+.card-project:hover {
+   cursor: pointer;
+}
+
+.card-project {
+    box-shadow: 0.6em 0.6em 1.2em rgba(99, 127, 76, 0.42);
+}
+
+/*.background-image-project1 {*/
+/*    !*background: url("../assets/images/ourProjects/6.jpg");*!*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: contain;*/
+/*    background-position: 0 100%;*/
+/*    background-attachment: fixed;*/
+/*}*/
+/*.background-image-project2{*/
+/*    !*background: url("../assets/images/ourProjects/9.jpeg");*!*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: contain;*/
+/*    background-position: 100% 0;*/
+/*    background-attachment: fixed;*/
+/*}*/
+
+
+.project-list .content-box {
+    padding-top: 8rem;
+    /*width: 70%;*/
+}
+
+.project-list .content-box .sub-heading {
+    font-size: 2rem;
+    color: #637F4C;
+}
+
+.project-list .horizontal-line-main {
+    width: 80px;
+    background-color: #637F4C;
+    height: 5px;
+    margin-bottom: 1rem;
+}
+
+.project-list h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.project-list p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.project-list .name {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-list h3 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.project-list .btn {
+    margin-bottom: 8rem;
+}
