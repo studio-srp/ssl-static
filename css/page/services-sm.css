@@ -120,7 +120,7 @@
     color: #637f4c;
 }
 
-/****************** Shihan's Edit***********/
+
 
 .transparent-background {
     position: absolute;
@@ -132,4 +132,6 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     outline: 20px rgba(0, 0, 0, 0.6) solid;
+    border-radius: 2px;
+    box-shadow: -10px -10px 25px rgba(0, 0, 0, 0.2), 10px 10px 25px rgba(0, 0, 0, 0.2);
 }
