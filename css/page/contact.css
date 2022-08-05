@@ -53,3 +53,88 @@ body{
     border: none;
     cursor: pointer;
 }
+.bg-banner{
+    height: 500px;
+    width: 100vw;
+
+    background-image: url("assets/images/ourServices/ss-1053560201-sustainable management.jpg");
+    /*background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("./../assets/images/ourServices/ss-1053560201-sustainable management.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-attachment: fixed;
+}
+/*================================*/
+
+
+.projects {
+    padding: 100px 0;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.p-card {
+    min-height: 370px;
+    width: 370px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(65, 206, 43, 0.25);
+    margin-bottom: 50px;
+}
+
+.margin-top {
+    margin-top: 7rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container1:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.97);
+
+}
+
+.container1 .card {
+    width: 350px;
+    height: 250px;
+    padding: 60px;
+    margin: 10px;
+    background: #637f4c;
+    box-shadow: 0.2em 0.2em 1em #d2dce9, -0.2em -0.2em 1em #ffffff;
+    border-radius: 5px;
+    border: none !important;
+}
+
+
+.contact-details {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #637f4c;
+}
+
+.container1 .card .content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-num {
+    color: #637f4c;
+}
+.horizontal-separator {
+    width: 100%;
+    background-color: #637f4c;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 2rem;
+}

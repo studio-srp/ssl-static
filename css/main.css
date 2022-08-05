@@ -49,6 +49,16 @@ body {
   background-attachment: fixed;
 }
 
+.banner1 {
+  height: 500px;
+  width: 100vw;
+  background: url("./../assets/images/ourProjects/bnr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-attachment: fixed;
+}
+
 .banner-content > h1 {
   font-size: 6rem;
   margin: 0;
@@ -460,3 +470,15 @@ footer .useful-links > p > a {
   text-decoration: none;
   color: #f4f5f5;
 }/*# sourceMappingURL=main.css.map */
+
+/*===============contacts===================*/
+
+.bg-banner{
+  height: 500px;
+  width: 100vw;
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("./../assets/images/ourServices/ss-1053560201-sustainable management.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-attachment: fixed;
+}
