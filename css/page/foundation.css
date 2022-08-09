@@ -1,0 +1,62 @@
+.foundation-list{
+    height: 60vh;
+    width: 100vw;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-attachment: fixed;
+}
+.foundation-list-color1{
+    background-color: #637F4C;
+}
+.foundation-list-color2{
+    background-color: rgba(255, 255, 255, 0.84);
+}
+.list-group-item{
+    background-color: unset;
+}
+
+.topic-g{
+    color: white !important;
+}
+.topic-w{
+color: #637F4C;
+}
+.horizontal-separator {
+    width: 90%;
+    background-color: #d9d9d9;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.fonts-para{
+    /*background-color: #a75820;*/
+    font-size: 1rem;
+}
+.btn-learnMore{
+    border-radius: 10px !important;
+    width: 20%;
+    padding: 0.6rem 0rem;
+    /*margin-right: ;*/
+    outline: none;
+    border: none;
+    font-size: 1rem;
+
+}
+.btn-learnMore:hover{
+    color: #bc6324 !important;
+    background-color: unset !important;
+
+}
+.img1 {
+
+    height: 80%;
+    width: 40%;
+    border-radius: 5px;
+    /*box-shadow: 4px 4px 25px 5px rgba(0, 0, 0, 0.25);*/
+}
+.fonts-topic{
+    /*background-color: #a75820;*/
+    font-size: 2.2rem;
+}
