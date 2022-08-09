@@ -148,6 +148,18 @@ body {
   transform: scale(0.97);
 }
 
+.our-training {
+  background-color: #f4f5f5;
+}
+
+.our-training button.accordion-button {
+  font-size: 1.5rem;
+}
+
+.our-training .accordion-body {
+  font-size: 1.5em;
+}
+
 .foundation-card .content-area {
   background-color: #f4f5f5 !important;
 }
@@ -193,13 +205,14 @@ body {
   margin-top: 6rem;
 }
 .our-services .container h1,
-.our-projects .container h1 {
+.our-projects .container h1, .our-training .container h1 {
   font-size: 4rem;
   color: #637F4C;
   margin-bottom: 2rem;
 }
 .our-services .container .horizontal-line,
-.our-projects .container .horizontal-line {
+.our-projects .container .horizontal-line,
+.our-training .container .horizontal-line {
   width: 80px;
   background-color: #637F4C;
   height: 5px;
@@ -207,7 +220,8 @@ body {
   margin-bottom: 2rem;
 }
 .our-services .container p,
-.our-projects .container p {
+.our-projects .container p,
+.our-training .container p {
   font-size: 1.2rem;
   margin-bottom: 4rem;
 }
