@@ -10,7 +10,7 @@
 }
 
 .our-training h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #637F4C;
     margin-bottom: 2rem;
 }
@@ -34,7 +34,7 @@
 
 .img1 {
     height: 100%;
-    width: 30%;
+    width: 40%;
     border-radius: 5px;
     box-shadow: 4px 4px 25px 5px rgba(0, 0, 0, 0.25);
 }
@@ -82,80 +82,8 @@ margin-right: 50%;
 .fonts-topic{
     /*background-color: #a75820;*/
     font-size: 2rem;
-}
-/*======search======*/
-.container-search{
-    margin-top:0%;
-
-}
-.btn-search{
-
-
-    padding: 0.1rem 0.1rem !important;
-    border-radius: 0px!important;
-    font-size: 1rem;
-    background-color: white;
     color: #637F4C;
-
-
 }
-.input-group-append{
-    width: 10% !important;
-
-    outline: none;
-    border: none;
-    border: 1px solid #637F4C;
-
-}
-.btn-search:hover{
-    color:#fff;
-    background-color: #637F4C!important;
-}
-
-.input-text:focus{
-
-
-    box-shadow: 0px 0px 0px;
-    border-color:#637F4C;
-    outline: 0px;
-}
-
-.form-control {
-    border: 1px solid #637F4C;
-}
-/*===========short list============*/
-
-
-.list-group1{
-    width: 400px !important;
-
-}
-
-.list-group-item{
-    margin-top:10px;
-    border-radius: none;
-    /*background: #5E35B1;*/
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-
-}
-.bx-shadow{
-    box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.17);
-}
-
-
-.list-group-item1:hover{
-    transform: scaleX(1.1);
-}
-
-
-
-
-
-
-
-
-
 
 input[type="checkbox"]:checked + .check { opacity: 1; }
 
@@ -181,7 +109,7 @@ input[type="checkbox"]:checked + .check { opacity: 1; }
 }
 .horizontal-separator {
     width: 90%;
-    background-color: #d9d9d9;
+    background-color: #637F4C;
     height: 2px;
     margin: auto;
     margin-bottom: 1rem;
@@ -247,3 +175,17 @@ input[type="checkbox"]:checked + .check { opacity: 1; }
     border-color:#637F4C!important;
 }
 
+.designation{
+    font-size: 1rem;
+}
+
+/*----------------------============-----------------*/
+.icons1{
+
+    color: #637F4C;
+    font-size: 30px;
+    margin-right: 3%;
+}
+.icons1:hover{
+    color: #bc6324;
+}
