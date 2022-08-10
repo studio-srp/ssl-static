@@ -19,6 +19,7 @@
     align-items: center;
     flex-wrap: wrap;
 
+
 }
 .container1:hover{
     cursor: pointer;
@@ -37,6 +38,8 @@
 
 .container1 .card {
     width: 30vh;
+    height: 30vh;
+
     /*height: 516px;*/
     /*padding: 60px;*/
     margin: 10px;
@@ -44,6 +47,20 @@
     box-shadow: 0.6em 0.6em 1.2em #d2dce9,
     -0.5em -0.5em 1em #ffffff;
     border-radius: 5px;
+    border: none !important;
+
+}
+
+.container1 .card-min {
+    width: 18vh;
+    height: 18vh;
+    border-radius: 100px !important;
+
+
+
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+    -0.5em -0.5em 1em #ffffff;
+
     border: none !important;
 
 }
