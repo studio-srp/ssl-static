@@ -155,3 +155,17 @@
 .trainer-name{
     font-size: 1.5rem;
 }
+.trainer-designation{
+    font-size: 1rem;
+    color: #637F4C;
+}
+.trainer-company{
+    font-size: 0.9rem;
+}
+.trainers{
+    font-weight: bold;
+    color: #bc6324 !important;
+    font-size: 2.5rem !important;
+    margin-bottom: 0;
+
+}

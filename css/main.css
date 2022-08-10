@@ -520,3 +520,10 @@ footer .useful-links > p > a {
   background-position: 0% 50%;
   background-attachment: fixed;
 }
+.mb-8{
+margin-bottom: 8rem;
+}
+
+.mb-6{
+  margin-bottom: 6rem;
+}

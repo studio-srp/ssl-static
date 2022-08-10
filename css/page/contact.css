@@ -452,3 +452,25 @@ h4 {
     }
 
 }
+/*===============*/
+.contact-head{
+    font-size: 1.6rem;
+}
+.contact-head-2nd-line{
+    font-size: 1.5rem;
+    color: #637F4C;
+}
+.contact-rest{
+    font-size: 1.2rem;
+}
+.trainers{
+    font-weight: bold;
+    color: #bc6324 !important;
+    font-size: 2.5rem !important;
+    margin-bottom: 0;
+
+}
+.icon-contact{
+    /*height: 5rem;*/
+    width: 6rem;
+}
