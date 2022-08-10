@@ -182,10 +182,13 @@ input[type="checkbox"]:checked + .check { opacity: 1; }
 /*----------------------============-----------------*/
 .icons1{
 
-    color: #637F4C;
+    color:#bc6324;
     font-size: 30px;
-    margin-right: 3%;
+    margin-right: 1.2%;
 }
 .icons1:hover{
-    color: #bc6324;
+    color: #637F4C;
+}
+.bg-clr{
+   background-color:  #f4f5f5;
 }

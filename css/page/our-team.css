@@ -186,3 +186,12 @@
     margin-bottom: 0;
 
 }
+.read-more{
+    font-size: 1rem;
+    color: #bc6324;
+    float: left;
+    text-decoration: none;
+}
+.read-more:hover{
+    color:#637F4C;
+}

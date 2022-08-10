@@ -135,3 +135,17 @@
     border-radius: 2px;
     box-shadow: -10px -10px 25px rgba(0, 0, 0, 0.2), 10px 10px 25px rgba(0, 0, 0, 0.2);
 }
+
+.dark-back{
+    background-color: rgba(22, 22, 22, 0.9);
+    width: 50vw;
+    /*height: 50vh;*/
+    height: 100%;
+    border-radius: 15px;
+}
+.dark-back-p{
+
+}
+.pb-8{
+    padding-bottom: 8rem;
+}
