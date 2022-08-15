@@ -477,6 +477,6 @@ h4 {
 .map{
     height: 100%;
     width: 100%;
-    margin: unset !important;
-    padding: unset!important;
+    margin: 0!important;
+    padding: 0!important;
 }

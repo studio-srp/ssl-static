@@ -69,7 +69,7 @@ color: #637F4C;
 
     color:#bc6324;
     font-size: 25px;
-    margin-right: 3.5%;
+    margin-right:2%;
     /*background-color: #f4f5f5;*/
 }
 .icons1:hover{
@@ -78,11 +78,11 @@ color: #637F4C;
 
 .icons2{
 
-    color:#bc6324;
+    color:#f4f5f5;
     font-size: 25px;
-    margin-right: 3.5%;
+    margin-right: 2%;
     /*background-color: #f4f5f5;*/
 }
 .icons2:hover{
-    color: #f4f5f5;
+    color: #bc6324;
 }

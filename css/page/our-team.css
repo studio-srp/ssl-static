@@ -189,7 +189,7 @@
 .read-more{
     font-size: 1rem;
     color: #bc6324;
-    float: left;
+    /*float: left;*/
     text-decoration: none;
 }
 .read-more:hover{
