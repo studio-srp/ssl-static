@@ -460,6 +460,10 @@ h4 {
     font-size: 1.5rem;
     color: #637F4C;
 }
+.contact-head-email{
+    font-size: 1.5rem;
+    color: #bc6324;
+}
 .contact-rest{
     font-size: 1.2rem;
 }
@@ -475,8 +479,22 @@ h4 {
     width: 6rem;
 }
 .map{
-    height: 100%;
+    height: 100% !important;
     width: 100%;
     margin: 0!important;
     padding: 0!important;
+}
+.map-bg{
+    margin: 0!important;
+    padding: 0!important;
+
+}
+.bg-white-gray{
+    background-color: #F4F5F5;
+}
+.banner-content{
+    height: 100%;
+}
+.mt-8{
+    margin-top: 8vh;
 }
