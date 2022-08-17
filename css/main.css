@@ -531,3 +531,65 @@ margin-bottom: 8rem;
 .mb-6{
   margin-bottom: 6rem;
 }
+
+/*==================*/
+.center{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: fixed;
+  top: 30%;
+  right: 10%;
+}
+.ring{
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  /*animation: ring 10s linear infinite;*/
+  background-color: #1a0202;
+  border: #F4F5F5 1px solid;
+  z-index: 5;
+}
+.ring1{
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  animation: ring 2s linear infinite;
+  background-color: #cc1212;
+  border: #F4F5F5 1px solid;
+  z-index: 3;
+}
+@keyframes ring1{
+  0%{
+    transform: scale(1.2);
+
+  }
+  50%{
+    transform: scale(1.5);
+
+  }
+  100%{
+    transform: scale(1.2);
+
+  }
+}
+.ring1:before{
+  position: absolute;
+  content: '';
+  letter-spacing: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  /*box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);*/
+}
+span{
+  /*color: #737373;*/
+  font-size: 20px;
+  letter-spacing: 1px;
+  z-index: 10;
+  color: #F4F5F5;
+}
