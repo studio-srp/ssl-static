@@ -497,20 +497,21 @@ body {
 }
 
 footer {
-  background-color: #808080;
+  background-color: #f4f5f5;
+  /*background-color: #bc6324;*/
 }
 footer p {
   font-size: 1.05rem;
 }
 footer .icons > a > i {
-  color: white;
+  color: #161616;
   font-size: 2rem;
   margin-right: 1rem;
   text-decoration: none;
 }
 footer .useful-links > p > a {
   text-decoration: none;
-  color: #f4f5f5;
+  color: #161616;
 }/*# sourceMappingURL=main.css.map */
 
 /*===============contacts===================*/
@@ -592,4 +593,10 @@ span{
   letter-spacing: 1px;
   z-index: 10;
   color: #F4F5F5;
+}
+.text-black{
+  color: #161616!important;
+}
+.sslogo{
+  height: 20vh;
 }
