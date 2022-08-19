@@ -193,3 +193,20 @@ input[type="checkbox"]:checked + .check { opacity: 1; }
 .bg-clr{
    background-color:  #f4f5f5;
 }
+
+@media (max-width: 767px) {
+    .img1 {
+        /*height: 50vh;*/
+        /*width: 30vw;*/
+        height: 100%;
+        width: 100%;
+        /*margin-bottom: 5vh;*/
+
+    }
+    .media-body{
+        margin-top: 5vh;
+    }
+    .fonts-para{
+        width: 100% !important;
+    }
+}
