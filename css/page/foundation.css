@@ -50,9 +50,10 @@ color: #637F4C;
 
 }
 .img1 {
-
+/*height: 50vh;*/
+    /*width: 30vw;*/
     height: 80%;
-    width: 40%;
+    width: 60%;
     border-radius: 5px;
     /*box-shadow: 4px 4px 25px 5px rgba(0, 0, 0, 0.25);*/
 }
@@ -89,4 +90,17 @@ color: #637F4C;
 .pb-pt--8{
     padding-bottom: 8vh;
     padding-top: 8vh;
+}
+/*======================*/
+@media (max-width: 767px) {
+    .img1 {
+        /*height: 50vh;*/
+        /*width: 30vw;*/
+        height: 100%;
+        width: 100%;
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
 }
