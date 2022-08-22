@@ -413,16 +413,17 @@ body {
 .background-image-project1 {
   background: url("../assets/images/ourProjects/6.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: 0 100%;
   background-attachment: fixed;
 }
 .background-image-project2{
   background: url("../assets/images/ourProjects/9.jpeg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: 100% 0;
   background-attachment: fixed;
+  width: 100%;
 
 }
 
