@@ -644,3 +644,9 @@ span{
     padding-right: 0;
   }
 }
+
+@media (min-width: 1200px) {
+  .width-q {
+    width: 75% !important;
+  }
+}
