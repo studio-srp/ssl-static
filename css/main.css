@@ -290,6 +290,9 @@ body {
   background-repeat: no-repeat;
   background-position: 0% 50%;
   background-attachment: fixed;
+  /*max-width: 100%;*/
+  /*height: auto;*/
+
 }
 
 .project-main {

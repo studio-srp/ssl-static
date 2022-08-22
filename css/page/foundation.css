@@ -100,6 +100,14 @@ color: #637F4C;
         width: 100%;
     }
 }
+@media (min-width:767px) and (max-width: 1199px) {
+    .img1 {
+        /*height: 50vh;*/
+        /*width: 30vw;*/
+        height: 100%;
+        width: 100%;
+    }
+}
 
 /* Portrait phones and smaller */
 /*@media (max-width: 480px) {*/
