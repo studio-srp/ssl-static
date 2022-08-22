@@ -464,8 +464,12 @@ body {
 
 .news-letter {
   background-color: #637F4C;
-  padding: 4rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   color: white;
+  margin: 0!important;
 }
 .news-letter .horizontal-line-main {
   width: 50px;
@@ -501,6 +505,10 @@ body {
   border: none;
   margin: 0;
   border-radius: 0 40px 40px 0;
+}
+.div-update{
+  padding: 0% !important;
+  margin: 0!important;
 }
 
 footer {
@@ -606,4 +614,33 @@ span{
 }
 .sslogo{
   height: 25vh;
+}
+.img-div{
+  width: 100%;
+  height: 55vh;
+  /*border: #bc6324 solid 1px;*/
+}
+@media (min-width: 768px) {
+.mq{
+  /*background-color: #bc6324;*/
+  padding-left: 2rem;
+}
+}
+@media (min-width: 992px) {
+  .mq{
+    /*background-color: #bc6324;*/
+    padding-left: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .mq{
+    /*background-color: #bc6324;*/
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .news-letter{
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
